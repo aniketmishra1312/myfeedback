@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="nav">
+            <nav>
+                <img class="logo" src="IMG_20210108_092746_044.jpg" alt="">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="https://aniketmishra1312.github.io/about-me/">About me</a></li>
+                    <li><a href="https://aniketmishra1312.github.io/books/">Books web</a></li>
+                    <li><a href="">feedback</a></li>
+                </ul>
+            </nav>
+        
+        </div>
+           </header>
+<center><h2 style="color: white;">Feedback</h2></center>
+           <div>
+            <section style="float:left;width:30%;padding-top:50px;padding-left:20px">
+                <form action="index.html"  onsubmit="return false">
+                   <div class="Feedback">
+                    <div class="inputBox MyLabel" style="display:flex;margin-top:12px;">
+                       <div style="width:200px;">
+                        <label for="fname" style="color: whitesmoke; font-size: 20px;">First name</label><label id="symb" class="symb">*</label>
+                    </div>
+                       <div style="width:200px;" > 
+                        <input type="text" id="fname" name="fname" onkeypress="validName()" onkeyup="validName()" required>
+                    </div>
+                       
+                    </div>
+                    <div class="inputBox MyLabel" style="display:flex;margin-top:12px;">
+                        <div style="width:200px;">
+                            <label for="mname" style="color: whitesmoke; font-size: 20px;">Middle name</label>
+                        </div>
+                        <div style="width:200px;">
+                             <input type="text" id="mname" name="mname"></div>
+                    </div>
+                    <div class="inputBox MyLabel" style="display:flex;margin-top:12px; ">
+                        <div style="width:200px;">
+                            <label for="lname" style="color: whitesmoke; font-size: 20px;">last name</label><label id="symb" class="symb">*</label>
+                        </div>
+                        <div style="width:200px;">
+                             <input type="text" id="lname" name="lname" required></div>
+                    </div>
+                    <div class="inputBox MyLabel" style="display:flex;margin-top:12px;">
+                        <div style="width:200px;">
+                            <label for="sugg" style="color: whitesmoke; font-size: 20px;">Suggestion</label><label id="symb" class="symb">*</label>
+                        </div>
+                        <div style="width:200px;"> <textarea  id="sugges" name="sugg" class="mysugg" required></textarea></div>
+                    </div>
+                    <div class="MyLabel" style="display:flex;margin-top:15px;">
+                        <div style="width:200px;">
+                            <label for="fname" style="color: whitesmoke; font-size: 20px;">Gender</label><label id="symb" class="symb">*</label>
+                        </div>
+                        <div style="width:200px;">
+                            <input type="radio" id="male" name="gender" value="Mr" required >
+                            <label for="male" style="color: whitesmoke; font-size: 20px;">Male</label>
+                            <input type="radio" id="female" name="gender" value="Ms" required>
+                            <label for="female" style="color: whitesmoke; font-size: 20px;" >Female</label>
+                        </div>
+                    </div>
+                    <div style="margin-left:200px;margin-top:30px;">
+        
+                        <input type="submit" value="Submit" class="Button" onclick="input()">
+                        <input type="submit" value="Clear" class="Button"  onclick="Clear()">
+                    </div>
+                   </div>
+                </form>
+        
+            </section>
+            <section style="float:right;width:60%">
+                <div class="feedback" id="Feedback">                
+                </div>             
+            </section>
+           
+            <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+                <footer>
+                    Copyright@2021 <br>Developed by : Aniket Mishra
+                </footer>
+           <script src="./feed.js"></script>
+</body>
+</html>

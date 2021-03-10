@@ -1,0 +1,159 @@
+
+  body{
+    background-image: url(wall.jpg);
+    background-position: center;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:  #0009;
+    line-height: 00px;
+  
+}
+nav ul{
+  text-align: center;
+  float: right;
+}
+
+
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block ;
+
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 30px;
+   float: right;
+}
+   .logo{
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 3px;
+    width: 70px;
+   }
+   a{
+    text-decoration: none;
+    padding: 80px;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+a:hover{
+   color: yellow;
+}
+footer{
+    text-align: center;
+  margin-bottom: 5px;
+  color: cornsilk;
+  background-color: #0009;
+}
+/* css for form */
+.inputBox input {
+        height: 30px;
+        background-color: #FAF4F5;
+        border: 1px solid #b8b3b3;
+        border-radius: 50px;
+        transition: 0.1s;
+        text-decoration: none;
+        font-family:  sans-serif;
+        width: 100%;
+        padding-left: 10px;
+        border-right-width: 2px;
+        border-bottom-width:5px;
+    }
+    input[type=text]:focus {
+        width: 100%;
+        border-bottom: 3px solid #8FE6FB;
+        outline: none;
+        border-right-width:5px;
+    }
+
+    .Feedback {
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: -4px -4px 10px #AFAFAF;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .Button {
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 100;
+        color: #5e4742;
+        margin-left: 10px;
+        background-color: white;
+        border: 2px solid #b6a19c;
+        border-radius:5px;
+        transition:0.2s;
+    }
+        .Button:hover {
+            box-shadow: 4px 4px 5px #D1D9D9;
+            border: 2px solid #11e4d9;
+            border-radius: 2px;
+            color:rgb(24, 82, 74);
+        }
+    .mysugg {
+        resize: none;
+        height: 100px;
+        width: 100%;
+        background-color: #FAF4F5;
+        outline: none;
+        cursor: text;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+        .mysugg:focus {
+            border-bottom: 3px solid #8FE6FB;
+            outline: none;
+        }
+    .feedback {
+        border: none;
+        margin: 50px 20px 20px 20px;
+        height: 381px;
+        box-shadow: -4px -4px 10px #c0c7c7;
+        border-radius: 5px;
+        overflow-y:auto ;
+        background-color: #e7eef0;
+
+    }
+    .feed {
+        background-color: #0009;
+        margin: 10px 20px 20px 20px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: -4px -4px 10px #3F3F3F;
+      
+    }
+   
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+  
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(41, 40, 40);
+        border-radius: 10px;
+    }
+
+   
+    ::-webkit-scrollbar-thumb {
+        background: #918a8a;
+        border-radius: 10px;
+    }
+
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b30000;
+        }
+    .symb{
+        color:red;
+        display:inline-block;
+    }
